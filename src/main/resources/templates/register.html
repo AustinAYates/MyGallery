@@ -17,7 +17,7 @@ Welcome to the User Registration Page!
     </div>
     <div class="form-group">
         <label>Password
-                <input th:field="${userRegistrationFormDTO.password}" class="form-control">
+                <input class="form-control" th:field="${userRegistrationFormDTO.password}" type="password">
         </label>
         <p class="error" th:errors="${userRegistrationFormDTO.password}"></p>
     </div>
